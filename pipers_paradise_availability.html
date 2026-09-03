@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piper's Paradise - Availability</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --sage: #7a9d7e;
+            --cream: #faf8f5;
+            --dark: #2c2c2c;
+            --accent: #c97a6d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--cream);
+            color: var(--dark);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--sage);
+            font-weight: 500;
+        }
+
+        .intro {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            border-left: 4px solid var(--sage);
+            line-height: 1.7;
+        }
+
+        .intro p {
+            margin-bottom: 1rem;
+        }
+
+        .intro p:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+        }
+
+        .dates-section {
+            background: white;
+            padding: 2rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+        }
+
+        .dates-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #d32f2f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 1rem;
+            background: #fff5f5;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+        }
+
+        .date-block {
+            margin-bottom: 2rem;
+        }
+
+        .date-block:last-child {
+            margin-bottom: 0;
+        }
+
+        .date-range {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 0.25rem;
+        }
+
+        .contact-section {
+            background: var(--sage);
+            color: white;
+            padding: 2rem 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info div {
+            margin-bottom: 0.75rem;
+        }
+
+        .label {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1.5rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .intro {
+                padding: 1.25rem;
+            }
+
+            .dates-section {
+                padding: 1.5rem;
+            }
+
+            .contact-section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Piper's Paradise</h1>
+            <p class="tagline">In-Home Pet Boarding & Sitting</p>
+        </header>
+
+        <div class="intro">
+            <p>We'd love to care for your furry friends! Check the dates below to see when we're unavailable.</p>
+            <p>If your dates look open, please reach out—we'll be happy to discuss your pet's care needs and next steps.</p>
+        </div>
+
+        <div class="dates-section">
+            <h2>UNAVAILABLE DATES</h2>
+            
+            <div class="date-block">
+                <div class="date-range">September 4–13, 2026</div>
+            </div>
+
+            <div class="date-block">
+                <div class="date-range">September 19, 2026</div>
+            </div>
+
+            <div class="date-block">
+                <div class="date-range">September 22–28, 2026</div>
+            </div>
+
+            <div class="date-block">
+                <div class="date-range">October 1–24, 2026</div>
+            </div>
+
+            <div class="date-block">
+                <div class="date-range">December 17–22, 2026</div>
+            </div>
+
+            <div class="date-block">
+                <div class="date-range">March 26–April 2, 2027</div>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <div>
+                    <div class="label">Email</div>
+                    <a href="mailto:pipersparadisewi@outlook.com">pipersparadisewi@outlook.com</a>
+                </div>
+                <div>
+                    <div class="label">Phone</div>
+                    <a href="tel:2622496657">262-249-6657</a>
+                </div>
+            </div>
+            <p style="font-size: 0.95rem; opacity: 0.95;">Based in Elkhorn, WI</p>
+        </div>
+    </div>
+</body>
+</html>
